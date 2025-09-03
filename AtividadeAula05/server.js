@@ -64,7 +64,7 @@ app.get('/multiple',async(req,res) => {
 res.json(results);
     
 }  catch(err){
-        res.status(500).json({error:'Erro ao consultar api para multiplas cidades'});
+        res.status(500).json({error:'Erro ao consultar API para múltiplas cidades'});
      
     }
 
@@ -114,7 +114,7 @@ app.get('/alert', async (req, res) => {
 
         const temp = response.data.main?.temp ?? 0;
 
-        let alert = temp > 30 ? 'Quente' : temp < 10 ? 'Frio' : 'Agradavel';
+        let alert = temp > 30 ? 'Quente' : temp < 10 ? 'Frio' : 'Agradável';
 
         res.json({ city, temperature: temp, alert});
 
