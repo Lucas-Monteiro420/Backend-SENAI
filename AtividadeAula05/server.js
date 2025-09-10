@@ -7,7 +7,7 @@ const axios = require('axios'); // Importa  a biblioteca axios
 //require('dotenv').config(); // Pega as variáveis do sistema
 const app = express();  // Instancia o servidor
 const PORT = 3000; // Porta que irá rodar a aplicação
-const apiKey = '46feaf2d6f46008600418771836b4450'
+const apiKey = process.env.OPENWEATHER_API_KEY;
 //process.env.OPENWEATHER_API_KEY; // Pega a variável da chave da API no .env
 
 
