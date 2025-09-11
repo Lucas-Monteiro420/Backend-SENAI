@@ -33,7 +33,7 @@ const meuLivroFavorito = {
     titulo: "O Terceiro Tira",
     autor: "Flann O' Brien",
     anoPublicacao: 1967,
-    genero: "Romance cômico absurdo-sombrio"
+    genero: "Romance; Cômico; Absurdo-sombrio"
 };
 
 console.log("\n\n🌟 === MEU LIVRO FAVORITO ===");
@@ -48,5 +48,28 @@ console.log(meuLivroFavorito);
 console.log("\n=== DESCRIÇÃO DETALHADA ===");
 console.log(`🚀 "${meuLivroFavorito.titulo}" é uma obra-prima de ${meuLivroFavorito.autor},`);
 console.log(`   publicada em ${meuLivroFavorito.anoPublicacao}. Este clássico da ${meuLivroFavorito.genero}`);
+console.log(`   combina humor inteligente com aventuras espaciais inesquecíveis!`);
+console.log(`\n`)
+
+
+const meuSegundoLivroFavorito = {
+    titulo: "O Estrangeiro",
+    autor: "Albert Camus",
+    anoPublicacao: 1947,
+    genero: "Romance; Tragédia"
+};
+
+console.log("\n\n🌟 === MEU SEGUNDO LIVRO FAVORITO ===");
+console.log("Título:", meuSegundoLivroFavorito.titulo);
+console.log("Autor:", meuSegundoLivroFavorito.autor);
+console.log("Ano de Publicação:", meuSegundoLivroFavorito.anoPublicacao);
+console.log("Gênero:", meuSegundoLivroFavorito.genero);
+
+console.log("\n=== OBJETO COMPLETO ===");
+console.log(meuLivroFavorito);
+
+console.log("\n=== DESCRIÇÃO DETALHADA ===");
+console.log(`🚀 "${meuSegundoLivroFavorito.titulo}" é uma obra-prima de ${meuSegundoLivroFavorito.autor},`);
+console.log(`   publicada em ${meuSegundoLivroFavorito.anoPublicacao}. Este clássico da ${meuSegundoLivroFavorito.genero}`);
 console.log(`   combina humor inteligente com aventuras espaciais inesquecíveis!`);
 console.log(`\n`)
